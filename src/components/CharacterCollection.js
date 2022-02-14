@@ -1,8 +1,9 @@
 import React from 'react'
+import CharacterCard from './CharacterCard'
 
 function CharacterCollection() {
     return (
-        <div>CharacterCollection</div>
+        <div><CharacterCard />CharacterCard</div>
     )
 }
 
