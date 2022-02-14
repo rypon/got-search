@@ -1,179 +1,179 @@
 {
-    "GOTchars": [
-        {
-            "id": 1,
-            "name": "Eddard Stark",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/3/34/Eddard_Stark.jpg/revision/latest/scale-to-width-down/350?cb=20190701140812",
-            "house": "Stark",
-            "bio": ""
-        },
-        {
-            "id": 2,
-            "name": "Catelyn Stark",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/d/d8/CatelynS3Promo.jpg/revision/latest/scale-to-width-down/303?cb=20190427043743",
-            "house": "Stark",
-            "bio": ""
-        },
-        {
-            "id": 3,
-            "name": "Robb Stark",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/5/50/S3E9_Robb_Stark_main.jpg/revision/latest/scale-to-width-down/327?cb=20160718071203",
-            "house": "Stark",
-            "bio": ""
-        },
-        {
-            "id": 4,
-            "name": "Tywin Lannister",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/7/71/Tywin_Lannister_4x08.jpg/revision/latest/scale-to-width-down/348?cb=20170830015346",
-            "house": "Lannister",
-            "bio": ""
-        },
-        {
-            "id": 5,
-            "name": "Cersei Lannister",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/b/b0/CERSEIBATTLEOFKINGSLANDING.PNG/revision/latest/scale-to-width-down/338?cb=20190906021534",
-            "house": "Lannister",
-            "bio": ""
-        },
-        {
-            "id": 6,
-            "name": "Jaime Lannister",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/5/51/JaimeLannisterSeason8.PNG/revision/latest/scale-to-width-down/317?cb=20190207112813",
-            "house": "Lannister",
-            "bio": ""
-        },
-        {
-            "id": 7,
-            "name": "Robert Baratheon",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/4/43/Robert_crop.png/revision/latest/scale-to-width-down/350?cb=20210223122212",
-            "house": "Baratheon",
-            "bio": ""
-        },
-        {
-            "id": 8,
-            "name": "Stannis Baratheon",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/2/2f/StannisNew.png/revision/latest/scale-to-width-down/350?cb=20210313165449",
-            "house": "Baratheon",
-            "bio": ""
-        },
-        {
-            "id": 9,
-            "name": "Renly Baratheon",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/f/ff/Profile-Renly_Baratheon.png/revision/latest/scale-to-width-down/328?cb=20171006064500",
-            "house": "Baratheon",
-            "bio": ""
-        },
-        {
-            "id": 10,
-            "name": "Daenerys Taragaryen",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/4/4f/Daenerys_Season_8.jpg/revision/latest/scale-to-width-down/301?cb=20190415212013",
-            "house": "Targaryen",
-            "bio": ""
-        },
-        {
-            "id": 11,
-            "name": "Viserys Taragaryen",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/4/46/Viseryspromoheadshot.jpg/revision/latest/scale-to-width-down/350?cb=20210722093457",
-            "house": "Taragaryen",
-            "bio": ""
-        },
-        {
-            "id": 12,
-            "name": "Aerys II Targaryen Taragaryen",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/4/47/Aerys_II_Targaryen_Mad_King.jpg/revision/latest/scale-to-width-down/350?cb=20170821102509",
-            "house": "Targaryen",
-            "bio": ""
-        },
-        {
-            "id": 13,
-            "name": "Balon Greyjoy",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/1/19/Balon-profile.png/revision/latest/scale-to-width-down/350?cb=20170420085750",
-            "house": "Greyjoy",
-            "bio": ""
-        },
-        {
-            "id": 14,
-            "name": "Theon Greyjoy",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/7/78/TheonS8E1.PNG/revision/latest/scale-to-width-down/314?cb=20190415192721",
-            "house": "Greyjoy",
-            "bio": ""
-        },
-        {
-            "id": 15,
-            "name": "Yara Greyjoy",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/a/a8/Game_of_thrones_6x5_yara_promo.jpg/revision/latest/scale-to-width-down/303?cb=20160808022737",
-            "house": "Greyjoy",
-            "bio": ""
-        },
-        {
-            "id": 16,
-            "name": "Jon Arryn",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/7/7a/Jon_Arryn_funeral_bier.jpg/revision/latest/scale-to-width-down/350?cb=20120520000749",
-            "house": "Arryn",
-            "bio": ""
-        },
-        {
-            "id": 17,
-            "name": "Lysa Arryn",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/4/46/LysaArryn.png/revision/latest/scale-to-width-down/350?cb=20140523133128",
-            "house": "Arryn",
-            "bio": ""
-        },
-        {
-            "id": 18,
-            "name": "Robert Arryn",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/8/8e/RobinArryn.png/revision/latest/scale-to-width-down/297?cb=20190521213310",
-            "house": "Arryn",
-            "bio": ""
-        },
-        {
-            "id": 19,
-            "name": "Doran Martell",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/f/f9/Profile-DoranMartell.png/revision/latest/scale-to-width-down/350?cb=20170728221257",
-            "house": "Martell",
-            "bio": ""
-        },
-        {
-            "id": 20,
-            "name": "Oberyn Martell",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/4/44/Oberyn-Martell-house-martell_s3.jpg/revision/latest/scale-to-width-down/288?cb=20190427200207",
-            "house": "Martell",
-            "bio": ""
-        },
-        {
-            "id": 21,
-            "name": "Hoster Tully",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/a/a3/Hoster_Tully.png/revision/latest/scale-to-width-down/286?cb=20140615193244",
-            "house": "Tully",
-            "bio": ""
-        },
-        {
-            "id": 22,
-            "name": "Edmure Tully",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/1/12/EdmureInfobox.PNG/revision/latest/scale-to-width-down/336?cb=20190520033037",
-            "house": "Tully",
-            "bio": ""
-        },
-        {
-            "id": 23,
-            "name": "Mace Tyrell",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/f/f0/Profile-MaceTyrell.png/revision/latest/scale-to-width-down/350?cb=20170729074743",
-            "house": "Tyrell",
-            "bio": ""
-        },
-        {
-            "id": 24,
-            "name": "Olenna Tyrell",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/f/f2/OlennaS7E3.png/revision/latest/scale-to-width-down/350?cb=20170803074257",
-            "house": "Tyrell",
-            "bio": ""
-        },
-        {
-            "id": 25,
-            "name": "Margaery Tyrell",
-            "image": "https://static.wikia.nocookie.net/gameofthrones/images/b/b5/Margaery_Tyrell_S6.png/revision/latest/scale-to-width-down/314?cb=20210722163311",
-            "house": "Tyrell",
-            "bio": ""
-        }
-    ]
+  "GOTchars": [
+    {
+      "id": 1,
+      "name": "Eddard Stark",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/3/34/Eddard_Stark.jpg/revision/latest/scale-to-width-down/350?cb=20190701140812",
+      "house": "Stark",
+      "bio": "Lord Eddard Stark, also known as Ned Stark, was the head of House Stark, the Lord of Winterfell, Lord Paramount and Warden of the North, and later Hand of the King to King Robert I Baratheon. He was the older brother of Benjen, Lyanna and the younger brother of Brandon Stark. He is the father of Robb, Sansa, Arya, Bran, and Rickon by his wife, Catelyn Tully, and uncle of Jon Snow, who he raised as his bastard son. He was a dedicated husband and father, a loyal friend, and an honorable lord."
+    },
+    {
+      "id": 2,
+      "name": "Catelyn Stark",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/d/d8/CatelynS3Promo.jpg/revision/latest/scale-to-width-down/303?cb=20190427043743",
+      "house": "Stark",
+      "bio": "Catelyn Stark, née Tully, also known as Cat to her husband and close friends, is the wife of Lord Eddard Stark and the mother of Robb Stark, Sansa Stark, Arya Stark, Bran Stark and Rickon Stark. She is formerly of House Tully, and her father is Hoster Tully and her mother Minisa Tully. She has a brother, Edmure Tully, and a sister, Lysa Arryn. She was killed at the Twins along with Robb during the infamous Red Wedding."
+    },
+    {
+      "id": 3,
+      "name": "Robb Stark",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/5/50/S3E9_Robb_Stark_main.jpg/revision/latest/scale-to-width-down/327?cb=20160718071203",
+      "house": "Stark",
+      "bio": "King Robb Stark was the eldest son of Lord Eddard Stark of Winterfell and his wife, Lady Catelyn. Following his father's execution, Robb was declared King in the North, won many battles against the House Lannister, but eventually he, his mother, and his forces were slain at the Red Wedding."
+    },
+    {
+      "id": 4,
+      "name": "Tywin Lannister",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/7/71/Tywin_Lannister_4x08.jpg/revision/latest/scale-to-width-down/348?cb=20170830015346",
+      "house": "Lannister",
+      "bio": "Lord Tywin Lannister was the head of House Lannister, Lord of Casterly Rock, Warden of the West, Lord Paramount of the Westerlands, Hand of the King for three different kings, and Protector of the Realm. He was the father of Cersei, Jaime, and Tyrion Lannister, and sole grandfather of the incest-born Joffrey, Myrcella, and Tommen Baratheon."
+    },
+    {
+      "id": 5,
+      "name": "Cersei Lannister",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/b/b0/CERSEIBATTLEOFKINGSLANDING.PNG/revision/latest/scale-to-width-down/338?cb=20190906021534",
+      "house": "Lannister",
+      "bio": "Queen Cersei I Lannister was the twentieth ruler of the Seven Kingdoms and the widow of King Robert Baratheon. She was the daughter of Lord Tywin Lannister, twin sister of Jaime Lannister and elder sister of Tyrion Lannister. She was involved in an incestuous relationship with Jaime, who was secretly the father of her three bastard children, Joffrey, Myrcella and Tommen."
+    },
+    {
+      "id": 6,
+      "name": "Jaime Lannister",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/5/51/JaimeLannisterSeason8.PNG/revision/latest/scale-to-width-down/317?cb=20190207112813",
+      "house": "Lannister",
+      "bio": "Ser Jaime Lannister was the elder son of Lord Tywin Lannister, younger twin brother of Queen Cersei Lannister, and older brother of Tyrion Lannister. He was involved in an incestuous relationship with Cersei, and unknown to most, he was the biological father of her three bastard children, Joffrey, Myrcella, and Tommen, as well as her unborn child."
+    },
+    {
+      "id": 7,
+      "name": "Robert Baratheon",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/4/43/Robert_crop.png/revision/latest/scale-to-width-down/350?cb=20210223122212",
+      "house": "Baratheon",
+      "bio": "Robert, a great warrior and charismatic man in his youth, took the throne through conquest in the war known as Robert's Rebellion, which began when the Prince of Dragonstone, Rhaegar Targaryen, allegedly abducted Robert's betrothed, Lyanna Stark. Killing Rhaegar at the Battle of the Trident, his climactic duel turned the tides of the war in his favor. After the war and following Lyanna's death, Robert married Cersei Lannister to cement an alliance with House Lannister to hold the kingdoms together, but he mistreated her and the marriage was loveless."
+    },
+    {
+      "id": 8,
+      "name": "Stannis Baratheon",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/2/2f/StannisNew.png/revision/latest/scale-to-width-down/350?cb=20210313165449",
+      "house": "Baratheon",
+      "bio": "Stannis Baratheon was the Lord of Dragonstone, the younger brother of King Robert Baratheon, and older brother of Renly Baratheon.On account of the revelation of Robert's supposed children's true parentage, Stannis declares himself the rightful King after Robert's death as his rightful heir, and begins a campaign to take the Iron Throne."
+    },
+    {
+      "id": 9,
+      "name": "Renly Baratheon",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/f/ff/Profile-Renly_Baratheon.png/revision/latest/scale-to-width-down/328?cb=20171006064500",
+      "house": "Baratheon",
+      "bio": "Renly Baratheon was the youngest of the three brothers of House Baratheon and Lord of Storm's End. Following the deposition of House Targaryen, and subsequent ascension of his eldest brother, Robert, he was granted the title of Lord Paramount of the Stormlands, despite his youth. He also served as Master of Laws on Robert's small council, but abandoned the latter position when laying claim to the Iron Throne upon Robert's death."
+    },
+    {
+      "id": 10,
+      "name": "Daenerys Taragaryen",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/4/4f/Daenerys_Season_8.jpg/revision/latest/scale-to-width-down/301?cb=20190415212013",
+      "house": "Targaryen",
+      "bio": "Queen Daenerys I Targaryen, also known as Daenerys Stormborn, and colloquially known as Dany, was briefly Queen of the Andals and the First Men and the twenty-first ruler of the Seven Kingdoms. She was also the Khaleesi of the Great Grass Sea and the Queen of Meereen. She was the younger sister of Rhaegar Targaryen and Viserys Targaryen and the only daughter of King Aerys II Targaryen and Queen Rhaella Targaryen. Her father was ousted from the Iron Throne during Robert's Rebellion."
+    },
+    {
+      "id": 11,
+      "name": "Viserys Taragaryen",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/4/46/Viseryspromoheadshot.jpg/revision/latest/scale-to-width-down/350?cb=20210722093457",
+      "house": "Taragaryen",
+      "bio": "Viserys Targaryen was the younger brother of the late Rhaegar Targaryen, the older brother of Daenerys Targaryen and the uncle of Jon Snow. Viserys and Daenerys were the remnants of the exiled House Targaryen following a rebellion against their father, Aerys II Targaryen, the  Mad King. He claimed the Iron Throne as King Viserys III following his father's murder, but never returned to Westeros, as he was killed by his brother-in-law, Khal Drogo, before he could make any attempt to take the throne."
+    },
+    {
+      "id": 12,
+      "name": "Aerys II Targaryen Taragaryen",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/4/47/Aerys_II_Targaryen_Mad_King.jpg/revision/latest/scale-to-width-down/350?cb=20170821102509",
+      "house": "Targaryen",
+      "bio": "King Aerys II Targaryen, commonly called the Mad King, was the sixteenth member of House Targaryen to rule from the Iron Throne. Although his rule began benevolently, he succumbed to the madness caused by his incestuous lineage, and was eventually deposed by Lord Robert Baratheon in a civil war."
+    },
+    {
+      "id": 13,
+      "name": "Balon Greyjoy",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/1/19/Balon-profile.png/revision/latest/scale-to-width-down/350?cb=20170420085750",
+      "house": "Greyjoy",
+      "bio": "King Balon Greyjoy was the Lord Reaper of Pyke and the head of House Greyjoy. He was the father of Yara and Theon Greyjoy, and the older brother of Euron, and Aeron Damphair Greyjoy."
+    },
+    {
+      "id": 14,
+      "name": "Theon Greyjoy",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/7/78/TheonS8E1.PNG/revision/latest/scale-to-width-down/314?cb=20190415192721",
+      "house": "Greyjoy",
+      "bio": "Theon Greyjoy was the youngest son of King Balon Greyjoy of the Iron Islands and the younger brother of Rodrik, Maron, and Yara Greyjoy."
+    },
+    {
+      "id": 15,
+      "name": "Yara Greyjoy",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/a/a8/Game_of_thrones_6x5_yara_promo.jpg/revision/latest/scale-to-width-down/303?cb=20160808022737",
+      "house": "Greyjoy",
+      "bio": "Lady Yara Greyjoy is the Lady of the Iron Islands and Lady Reaper of Pyke, the daughter and last surviving child of Balon Greyjoy, and older sister and only surviving sibling of Theon Greyjoy. She was raised at Pyke, the stronghold of House Greyjoy. Yara is a fierce warrior and commands her own longship, the Black Wind."
+    },
+    {
+      "id": 16,
+      "name": "Jon Arryn",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/7/7a/Jon_Arryn_funeral_bier.jpg/revision/latest/scale-to-width-down/350?cb=20120520000749",
+      "house": "Arryn",
+      "bio": "Lord Jon Arryn was Lord of the Eyrie, Lord Paramount of the Vale, Warden of the East, and the head of House Arryn. He served as the first Hand of the King to Robert Baratheon until he died in mysterious circumstances."
+    },
+    {
+      "id": 17,
+      "name": "Lysa Arryn",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/4/46/LysaArryn.png/revision/latest/scale-to-width-down/350?cb=20140523133128",
+      "house": "Arryn",
+      "bio": "Lady Lysa Arryn, née Tully, was born into House Tully as the daughter of Hoster Tully, the Lord Paramount of the Trident, and sister of Catelyn and Edmure Tully. She married into House Arryn through her marriage to Jon Arryn. After Jon's death, whom she had secretly murdered on behalf of Petyr Baelish, her true lover and later second husband, she became the Lady Regent of the Vale, ruling on behalf of her young son, Robin Arryn. She doted on her son and pursued a policy of isolationism during the War of the Five Kings despite her blood ties to House Tully."
+    },
+    {
+      "id": 18,
+      "name": "Robert Arryn",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/8/8e/RobinArryn.png/revision/latest/scale-to-width-down/297?cb=20190521213310",
+      "house": "Arryn",
+      "bio": "Lord Robin Arryn, commonly called Sweetrobin by his mother, is the only surviving child and heir of Lord Jon Arryn by his wife, Lysa of House Tully, who served as Robin's regent during his minority. He is the Lord of the Eyrie, the head of House Arryn, the Warden of the East and Defender of the Vale."
+    },
+    {
+      "id": 19,
+      "name": "Doran Martell",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/f/f9/Profile-DoranMartell.png/revision/latest/scale-to-width-down/350?cb=20170728221257",
+      "house": "Martell",
+      "bio": "Prince Doran Martell was the head of House Martell, the ruling Prince of Dorne, and the Lord of Sunspear. He was the older brother of Elia and Oberyn Martell, and the father of Trystane Martell."
+    },
+    {
+      "id": 20,
+      "name": "Oberyn Martell",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/4/44/Oberyn-Martell-house-martell_s3.jpg/revision/latest/scale-to-width-down/288?cb=20190427200207",
+      "house": "Martell",
+      "bio": "Prince Oberyn Martell, also known as the Red Viper of Dorne, was a member of House Martell, the ruling family of Dorne, the younger brother of Doran Martell and the late Elia Martell, the father of eight bastard girls known as the Sand Snakes, and a member of the small council for Dorne to Tommen I. He was renowned for his skill with a staff, his spirit for vengeance, and fluid sexuality."
+    },
+    {
+      "id": 21,
+      "name": "Hoster Tully",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/a/a3/Hoster_Tully.png/revision/latest/scale-to-width-down/286?cb=20140615193244",
+      "house": "Tully",
+      "bio": "Lord Hoster Tully was the Lord of Riverrun, the Lord Paramount of the Trident and the head of House Tully, one of the Great Houses of Westeros. He was the father of Edmure, Catelyn and Lysa and the older brother of Brynden. He ruled over the Riverlands from the castle of Riverrun. During the War of the Five Kings, he declared for House Stark and his grandson Robb Stark, the King in the North."
+    },
+    {
+      "id": 22,
+      "name": "Edmure Tully",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/1/12/EdmureInfobox.PNG/revision/latest/scale-to-width-down/336?cb=20190520033037",
+      "house": "Tully",
+      "bio": "Lord Edmure Tully is the Lord of Riverrun and Lord Paramount of the Trident, the son and heir of the late Lord Hoster Tully of Riverrun. He is the younger brother of Catelyn and Lysa."
+    },
+    {
+      "id": 23,
+      "name": "Mace Tyrell",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/f/f0/Profile-MaceTyrell.png/revision/latest/scale-to-width-down/350?cb=20170729074743",
+      "house": "Tyrell",
+      "bio": "Lord Mace Tyrell was the Lord of Highgarden and head of House Tyrell. He was the father of Loras and Margaery Tyrell, and the son of Olenna Tyrell. He initially supported Renly Baratheon's claim to the Iron Throne in the War of the Five Kings, but after Renly's death he successfully negotiated an alliance with House Lannister to support King Joffrey's claim to the throne, on the condition that his daughter Margaery would marry Joffrey, making her the new queen and giving House Tyrell the prestige of entering into the royal bloodline. He was appointed both Master of Ships and Master of Coin on King Tommen's small council."
+    },
+    {
+      "id": 24,
+      "name": "Olenna Tyrell",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/f/f2/OlennaS7E3.png/revision/latest/scale-to-width-down/350?cb=20170803074257",
+      "house": "Tyrell",
+      "bio": "Lady Olenna Tyrell, née Redwyne, was the elderly matriarch of House Tyrell and the last known head of that house. Lady Olenna had been a mistress of court politics, plotting and intrigue par excellence throughout her life. She was also known for her wit and sarcasm. As a result, Lady Olenna was popularly nicknamed the Queen of Thorns, in reference to the Tyrell sigil - a rose - and her cutting, barbed comments. In many ways she was the de facto head of House Tyrell at the time of the War of the Five Kings and appeared to hold a great deal of influence over the Reach."
+    },
+    {
+      "id": 25,
+      "name": "Margaery Tyrell",
+      "image": "https://static.wikia.nocookie.net/gameofthrones/images/b/b5/Margaery_Tyrell_S6.png/revision/latest/scale-to-width-down/314?cb=20210722163311",
+      "house": "Tyrell",
+      "bio": "Queen Margaery Tyrell was the only daughter of Lord Mace Tyrell and Lady Alerie Tyrell, granddaughter of Lady Olenna Tyrell and sister of Ser Loras Tyrell. Margaery became Queen Consort through her marriage to King Joffrey Baratheon, and later his younger brother, King Tommen Baratheon, following Joffrey's death. However, a charge of perjury and a false dedication to the Sparrow movement led to her downfall as she was eventually killed along with her brother and father when the Great Sept of Baelor was destroyed with wildfire as orchestrated by Cersei Lannister to reclaim her lost power."
+    }
+  ]
 }
