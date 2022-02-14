@@ -1,17 +1,9 @@
-import React, { useState } from "react";
-import { Card } from "semantic-ui-react";
+import React from 'react'
 
 function CharacterCard() {
-
-
-
-
     return (
-
-)
-
-
-
+        <div>CharacterCard</div>
+    )
 }
 
-export default CharacterCard;
+export default CharacterCard

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import CharacterCollection from "./CharacterCollection";
 import CharacterForm from "./CharacterForm";
 import Search from "./Search";
@@ -12,7 +12,7 @@ function CharacterPage() {
         <Container>
             <h1>Game Of Thrones Searcher</h1>
             <br />
-            <CharacterForm {} />
+            <CharacterForm />
             <br />
             <Search />
             <br />
@@ -20,8 +20,6 @@ function CharacterPage() {
         </Container>
     );
 
-)
-
 }
 
-export default CharacterPage
+export default CharacterPage;

@@ -1,10 +1,9 @@
-import React from "react";
-import CharacterCard from "./CharacterCard";
-import { Card } from "semantic-ui-react";
+import React from 'react'
 
-function CharacterCollection {
-
-
+function CharacterCollection() {
+    return (
+        <div>CharacterCollection</div>
+    )
 }
 
 export default CharacterCollection
