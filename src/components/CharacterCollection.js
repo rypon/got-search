@@ -1,9 +1,12 @@
 import React from 'react'
 import CharacterCard from './CharacterCard'
 
-function CharacterCollection() {
+function CharacterCollection({ character }) {
+
     return (
-        <div><CharacterCard />CharacterCard</div>
+        <div>
+            {character.map((characterObj => <CharacterCard key={characterObj.id} character={characterObj} />))}
+        </div>
     )
 }
 

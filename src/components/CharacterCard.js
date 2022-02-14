@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 
 
-function CharacterCard() {
+function CharacterCard({ name, image }) {
     return (
-        <div>CharacterCard</div>
+        <li className="card">
+            <img src={image} alt={""} />
+            <h4>{name}</h4>
+        </li>
     )
 }
 
