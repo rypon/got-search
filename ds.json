@@ -1,0 +1,179 @@
+{
+    "GOTchars": [
+        {
+            "id": 1,
+            "name": "Eddard Stark",
+            "image": "",
+            "house": "Stark",
+            "bio": ""
+        },
+        {
+            "id": 2,
+            "name": "Catelyn Stark",
+            "image": "",
+            "house": "Stark",
+            "bio": ""
+        },
+        {
+            "id": 3,
+            "name": "Robb Stark",
+            "image": "",
+            "house": "Stark",
+            "bio": ""
+        },
+        {
+            "id": 4,
+            "name": "Tywin Lannister",
+            "image": "",
+            "house": "Lannister",
+            "bio": ""
+        },
+        {
+            "id": 5,
+            "name": "Cersei Lannister",
+            "image": "",
+            "house": "Lannister",
+            "bio": ""
+        },
+        {
+            "id": 6,
+            "name": "Jaime Lannister",
+            "image": "",
+            "house": "Lannister",
+            "bio": ""
+        },
+        {
+            "id": 7,
+            "name": "Robert Baratheon",
+            "image": "",
+            "house": "Baratheon",
+            "bio": ""
+        },
+        {
+            "id": 8,
+            "name": "Stannis Baratheon",
+            "image": "",
+            "house": "Baratheon",
+            "bio": ""
+        },
+        {
+            "id": 9,
+            "name": "Renly Baratheon",
+            "image": "",
+            "house": "Baratheon",
+            "bio": ""
+        },
+        {
+            "id": 10,
+            "name": "Daenerys Taragaryen",
+            "image": "",
+            "house": "Targaryen",
+            "bio": ""
+        },
+        {
+            "id": 11,
+            "name": "Viserys Taragaryen",
+            "image": "",
+            "house": "Taragaryen",
+            "bio": ""
+        },
+        {
+            "id": 12,
+            "name": "Aerys II Targaryen Taragaryen",
+            "image": "",
+            "house": "Targaryen",
+            "bio": ""
+        },
+        {
+            "id": 13,
+            "name": "Balon Greyjoy",
+            "image": "",
+            "house": "Greyjoy",
+            "bio": ""
+        },
+        {
+            "id": 14,
+            "name": "Theon Greyjoy",
+            "image": "",
+            "house": "Greyjoy",
+            "bio": ""
+        },
+        {
+            "id": 15,
+            "name": "Asha Greyjoy",
+            "image": "",
+            "house": "Greyjoy",
+            "bio": ""
+        },
+        {
+            "id": 16,
+            "name": "Jon Arryn",
+            "image": "",
+            "house": "Arryn",
+            "bio": ""
+        },
+        {
+            "id": 17,
+            "name": "Lysa Arryn",
+            "image": "",
+            "house": "Arryn",
+            "bio": ""
+        },
+        {
+            "id": 18,
+            "name": "Robert Arryn",
+            "image": "",
+            "house": "Arryn",
+            "bio": ""
+        },
+        {
+            "id": 19,
+            "name": "Doran Martell",
+            "image": "",
+            "house": "Martell",
+            "bio": ""
+        },
+        {
+            "id": 20,
+            "name": "Oberyn Martell",
+            "image": "",
+            "house": "Martell",
+            "bio": ""
+        },
+        {
+            "id": 21,
+            "name": "Hoster Tully",
+            "image": "",
+            "house": "Tully",
+            "bio": ""
+        },
+        {
+            "id": 22,
+            "name": "Edmure Tully",
+            "image": "",
+            "house": "Tully",
+            "bio": ""
+        },
+        {
+            "id": 23,
+            "name": "Mace Tyrell",
+            "image": "",
+            "house": "Tyrell",
+            "bio": ""
+        },
+        {
+            "id": 24,
+            "name": "Olenna Tyrell",
+            "image": "",
+            "house": "Tyrell",
+            "bio": ""
+        },
+        {
+            "id": 25,
+            "name": "Margaery Tyrell",
+            "image": "",
+            "house": "Tyrell",
+            "bio": ""
+        }
+    ]
+}
