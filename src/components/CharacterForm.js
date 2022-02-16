@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Form,
   Button,
@@ -21,7 +21,43 @@ const options = [
   { key: 9, text: "Tyrell", value: 9 },
 ];
 
-function CharacterForm() {
+function CharacterForm({ createChar }) {
+
+  const [newChar, setNewChar] = useState({
+    name: '',
+    image: '',
+    house: '',
+    bio: ''
+  })
+
+  function handleChange(e) {
+    setNewChar((prevState) => {
+      return { ...prevState, [e.target.name]: e.target.value }
+    })
+  }
+
+  function submitHandler(e) {
+    e.preventDefault()
+
+    const reqConfig = {
+      headers: { "Content-Type": "application/json" },
+      method: "POST",
+      body: JSON.stringify(newChar)
+    }
+
+    fetch('http://localhost:3000/GOTchars', reqConfig)
+      .then(r => r.json())
+      .then(newData => {
+        createChar(newData)
+        setNewChar({
+          name: '',
+          image: '',
+          house: '',
+          bio: ''
+        })
+      })
+  }
+
   return (
     <Grid centered={true}>
       <Grid.Column style={{ width: "30%", margin: "auto" }}>
@@ -29,18 +65,18 @@ function CharacterForm() {
           Add a new Character
         </SemanticHeader>
         <Segment>
-          <Form>
-            <Form.Field>
+          <Form onSubmit={(e) => submitHandler(e)}>
+            <Form.Field onChange={handleChange} value={newChar.name}>
               <label>Name</label>
               <input placeholder="Name" />
             </Form.Field>
 
-            <Form.Field>
+            <Form.Field onChange={handleChange} value={newChar.image} >
               <label>Image</label>
               <input placeholder="Image Link" />
             </Form.Field>
 
-            <Form.Field>
+            <Form.Field onChange={handleChange} value={newChar.house}>
               <label>House</label>
               <Dropdown
                 selection
@@ -49,7 +85,7 @@ function CharacterForm() {
               />
             </Form.Field>
 
-            <Form.Field>
+            <Form.Field onChange={handleChange} value={newChar.bio}>
               <label>Bio</label>
               <TextArea placeholder="Bio" />
             </Form.Field>
@@ -63,7 +99,7 @@ function CharacterForm() {
           </Form>
         </Segment>
       </Grid.Column>
-    </Grid>
+    </Grid >
   );
 }
 

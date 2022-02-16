@@ -20,6 +20,10 @@ function App() {
     name.toLowerCase().includes(searchChar.toLowerCase())
   );
 
+  function createChar(newChar) {
+    setCharacters((oldChar) => [...oldChar, newChar])
+  }
+
   const [page, setPage] = useState("/");
 
   return (
@@ -32,7 +36,7 @@ function App() {
         </Route>
 
         <Route path="/add-character">
-          <CharacterForm />
+          <CharacterForm createChar={createChar} />
         </Route>
 
         <Route path="/characters">
