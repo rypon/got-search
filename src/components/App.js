@@ -16,13 +16,12 @@ function App() {
       .then((characterArray) => setCharacters(characterArray));
   }, []);
 
+  const updatedCharacters = (character) =>
+    setCharacters([...characters, character]);
+
   const filteredChars = characters.filter(({ name }) =>
     name.toLowerCase().includes(searchChar.toLowerCase())
   );
-
-  function createChar(newChar) {
-    setCharacters((oldChar) => [...oldChar, newChar])
-  }
 
   const [page, setPage] = useState("/");
 
@@ -36,7 +35,7 @@ function App() {
         </Route>
 
         <Route path="/add-character">
-          <CharacterForm createChar={createChar} />
+          <CharacterForm updatedCharacters={updatedCharacters} />
         </Route>
 
         <Route path="/characters">

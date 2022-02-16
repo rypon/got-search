@@ -1,63 +1,41 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import {
   Form,
   Button,
   TextArea,
   Grid,
-  Dropdown,
   Header as SemanticHeader,
   Segment,
 } from "semantic-ui-react";
 
-const options = [
-  { key: 1, text: "Stark", value: 1 },
-  { key: 2, text: "Lannister", value: 2 },
-  { key: 3, text: "Baratheon", value: 3 },
-  { key: 4, text: "Targaryen", value: 4 },
-  { key: 5, text: "Greyjoy", value: 5 },
-  { key: 6, text: "Arryn", value: 6 },
-  { key: 7, text: "Martell", value: 7 },
-  { key: 8, text: "Tully", value: 8 },
-  { key: 9, text: "Tyrell", value: 9 },
-];
+function CharacterForm() {
+  const [newCharacterName, setNewCharacterName] = useState("");
+  const [newCharacterImage, setNewCharacterImage] = useState("");
+  const [newCharacterHouse, setNewCharacterHouse] = useState("");
+  const [newCharacterBio, setNewCharacterBio] = useState("");
 
-function CharacterForm({ createChar }) {
+  const history = useHistory();
 
-  const [newChar, setNewChar] = useState({
-    name: '',
-    image: '',
-    house: '',
-    bio: ''
-  })
-
-  function handleChange(e) {
-    setNewChar((prevState) => {
-      return { ...prevState, [e.target.name]: e.target.value }
-    })
-  }
-
-  function submitHandler(e) {
-    e.preventDefault()
-
-    const reqConfig = {
-      headers: { "Content-Type": "application/json" },
+  function addNewCharacter(e) {
+    e.preventDefault();
+    const newCharacter = {
+      name: newCharacterName,
+      image: newCharacterImage,
+      house: newCharacterHouse,
+      bio: newCharacterBio,
+    };
+    fetch("http://localhost:3000/GOTchars", {
       method: "POST",
-      body: JSON.stringify(newChar)
-    }
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(newCharacter),
+    }).then((r) => r.json());
 
-    fetch('http://localhost:3000/GOTchars', reqConfig)
-      .then(r => r.json())
-      .then(newData => {
-        createChar(newData)
-        setNewChar({
-          name: '',
-          image: '',
-          house: '',
-          bio: ''
-        })
-      })
+    history.push(`/add-character`);
+    history.go();
   }
-
   return (
     <Grid centered={true}>
       <Grid.Column style={{ width: "30%", margin: "auto" }}>
@@ -65,29 +43,37 @@ function CharacterForm({ createChar }) {
           Add a new Character
         </SemanticHeader>
         <Segment>
-          <Form onSubmit={(e) => submitHandler(e)}>
-            <Form.Field onChange={handleChange} value={newChar.name}>
+          <Form onSubmit={addNewCharacter}>
+            <Form.Field>
               <label>Name</label>
-              <input placeholder="Name" />
-            </Form.Field>
-
-            <Form.Field onChange={handleChange} value={newChar.image} >
-              <label>Image</label>
-              <input placeholder="Image Link" />
-            </Form.Field>
-
-            <Form.Field onChange={handleChange} value={newChar.house}>
-              <label>House</label>
-              <Dropdown
-                selection
-                options={options}
-                placeholder="Choose an option"
+              <input
+                placeholder="Name"
+                onChange={(e) => setNewCharacterName(e.target.value)}
               />
             </Form.Field>
 
-            <Form.Field onChange={handleChange} value={newChar.bio}>
+            <Form.Field>
+              <label>Image</label>
+              <input
+                placeholder="Image Link"
+                onChange={(e) => setNewCharacterImage(e.target.value)}
+              />
+            </Form.Field>
+
+            <Form.Field>
+              <label>House</label>
+              <input
+                placeholder="House"
+                onChange={(e) => setNewCharacterHouse(e.target.value)}
+              />
+            </Form.Field>
+
+            <Form.Field>
               <label>Bio</label>
-              <TextArea placeholder="Bio" />
+              <TextArea
+                placeholder="Bio"
+                onChange={(e) => setNewCharacterBio(e.target.value)}
+              />
             </Form.Field>
             <Button
               style={{ width: "15%", margin: "auto" }}
@@ -99,7 +85,7 @@ function CharacterForm({ createChar }) {
           </Form>
         </Segment>
       </Grid.Column>
-    </Grid >
+    </Grid>
   );
 }
 
