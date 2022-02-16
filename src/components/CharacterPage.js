@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import CharacterCollection from "./CharacterCollection";
 import Search from "./Search";
 import { Container } from "semantic-ui-react";
 
-function CharacterPage() {
-  const [characters, setCharacters] = useState([]);
-  const [searchChar, setSearchChar] = useState("");
+function CharacterPage({ setSearchChar, characters }) {
+  // const [characters, setCharacters] = useState([]);
+  // const [searchChar, setSearchChar] = useState("");
 
-  useEffect(() => {
-    fetch("http://localhost:3000/GOTchars")
-      .then((resp) => resp.json())
-      .then((characterArray) => setCharacters(characterArray));
-  }, []);
+  // useEffect(() => {
+  //   fetch("http://localhost:3000/GOTchars")
+  //     .then((resp) => resp.json())
+  //     .then((characterArray) => setCharacters(characterArray));
+  // }, []);
 
-  const filteredChars = characters.filter(({ name }) =>
-    name.toLowerCase().includes(searchChar.toLowerCase())
-  );
+  // const filteredChars = characters.filter(({ name }) =>
+  //   name.toLowerCase().includes(searchChar.toLowerCase())
+  // );
 
   return (
     <Container textAlign={"center"}>
@@ -23,7 +23,7 @@ function CharacterPage() {
       <br />
       <Search setSearchChar={setSearchChar} />
       <br />
-      <CharacterCollection characters={filteredChars} />
+      <CharacterCollection characters={characters} />
     </Container>
   );
 }

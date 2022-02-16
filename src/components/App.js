@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import CharacterPage from "./CharacterPage";
 import Header from "./Header";
 import { Switch, Route } from "react-router-dom";
@@ -7,6 +7,19 @@ import HomePage from "./HomePage";
 import "../App.css";
 
 function App() {
+  const [characters, setCharacters] = useState([]);
+  const [searchChar, setSearchChar] = useState("");
+
+  useEffect(() => {
+    fetch("http://localhost:3000/GOTchars")
+      .then((resp) => resp.json())
+      .then((characterArray) => setCharacters(characterArray));
+  }, []);
+
+  const filteredChars = characters.filter(({ name }) =>
+    name.toLowerCase().includes(searchChar.toLowerCase())
+  );
+
   const [page, setPage] = useState("/");
 
   return (
@@ -23,7 +36,10 @@ function App() {
         </Route>
 
         <Route path="/characters">
-          <CharacterPage />
+          <CharacterPage
+            setSearchChar={setSearchChar}
+            characters={filteredChars}
+          />
         </Route>
 
         {/* <Route path="*">
