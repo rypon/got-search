@@ -1,12 +1,32 @@
-import React from "react";
-import { Embed, Container, Header } from "semantic-ui-react";
+import React, { useCallback } from "react";
+import { Embed, Container, Header, Button } from "semantic-ui-react";
+import { useHistory } from "react-router-dom";
 
 function HomePage() {
+  const history = useHistory();
+  const handleOnClick = useCallback(
+    () => history.push("/characters"),
+    [history]
+  );
   return (
     <Container>
-      <Header size="huge" textAlign="center">
-        Game of Thrones
+      <Header
+        style={{ fontFamily: "Cinzel Decorative" }}
+        size="huge"
+        textAlign="center"
+      >
+        Game Of Thrones
       </Header>
+
+      <Button
+        style={{ marginBottom: 20 }}
+        type="button"
+        onClick={handleOnClick}
+        circular={true}
+      >
+        View Characters
+      </Button>
+
       <Embed
         aspectRatio="4:3"
         autoplay={true}

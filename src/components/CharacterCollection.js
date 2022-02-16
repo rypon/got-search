@@ -7,7 +7,6 @@ function CharacterCollection({ characters }) {
     <CharacterCard key={characterObj.id} characters={characterObj} />
   ));
 
-  console.log(characters);
   return <Card.Group itemsPerRow={5}>{card}</Card.Group>;
 }
 

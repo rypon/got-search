@@ -19,7 +19,7 @@ function CharacterPage() {
 
   return (
     <Container textAlign={"center"}>
-      <h1>Game Of Thrones</h1>
+      <h1 style={{ fontFamily: "Cinzel Decorative" }}>Game Of Thrones</h1>
       <br />
       <Search setSearchChar={setSearchChar} />
       <br />

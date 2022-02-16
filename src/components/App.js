@@ -4,6 +4,7 @@ import Header from "./Header";
 import { Switch, Route } from "react-router-dom";
 import CharacterForm from "./CharacterForm";
 import HomePage from "./HomePage";
+import "../App.css";
 
 function App() {
   const [page, setPage] = useState("/");

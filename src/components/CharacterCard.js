@@ -1,24 +1,34 @@
-import React from "react";
-import { Card, Image, Icon } from "semantic-ui-react";
+import React, { useState } from "react";
+import { Card, Image, Icon, Button } from "semantic-ui-react";
 
 function CharacterCard({ characters }) {
   const { name, image, house, bio } = characters;
+
+  const [flipCard, setFlipCard] = useState(false);
+
+  function handleFlipCardClick() {
+    setFlipCard(!flipCard);
+  }
+
   return (
     <Card>
-      <Image src={image} wrapped ui={false} />
+      <Image src={flipCard === false ? image : null} wrapped ui={false} />
       <Card.Content>
-        <Card.Header style={{ color: "blue", cursor: "pointer" }}>
-          {name}
-        </Card.Header>
+        <Card.Header>{flipCard === false ? name : null}</Card.Header>
         <Card.Meta>
-          <Icon name="chess rook" />
-          House {house}
+          <Icon name={flipCard === false ? "chess rook" : null} />
+          {flipCard === false ? `House ` + house : null}
         </Card.Meta>
-        <Card.Description>{bio}</Card.Description>
+        <Card.Description>{flipCard === false ? null : bio}</Card.Description>
       </Card.Content>
       <Card.Content extra>
-        <Icon name="chess rook" />
-        {house}
+        <Button
+          onClick={handleFlipCardClick}
+          style={{ cursor: "pointer" }}
+          circular={true}
+        >
+          {flipCard === false ? `Read Bio` : `Back`}
+        </Button>
       </Card.Content>
     </Card>
   );

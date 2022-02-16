@@ -25,7 +25,9 @@ function CharacterForm() {
   return (
     <Grid centered={true}>
       <Grid.Column style={{ width: "30%", margin: "auto" }}>
-        <SemanticHeader size="huge">Add a new Character</SemanticHeader>
+        <SemanticHeader style={{ fontFamily: "Cinzel Decorative" }} size="huge">
+          Add a new Character
+        </SemanticHeader>
         <Segment>
           <Form>
             <Form.Field>
